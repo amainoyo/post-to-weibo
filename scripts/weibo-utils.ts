@@ -73,7 +73,7 @@ export function getDefaultProfileDir(): string {
   const base = process.platform === 'darwin'
     ? path.join(os.homedir(), 'Library', 'Application Support')
     : process.env.XDG_DATA_HOME || path.join(os.homedir(), '.local', 'share');
-  return path.join(base, 'baoyu-skills', 'chrome-profile');
+  return path.join(base, 'weibo-skills', 'chrome-profile');
 }
 
 export function sleep(ms: number): Promise<void> {

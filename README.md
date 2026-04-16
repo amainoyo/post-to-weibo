@@ -103,7 +103,7 @@ Options:
 | Environment Variable | Description | Default |
 |---------------------|-------------|---------|
 | `WEIBO_BROWSER_CHROME_PATH` | Chrome executable path | Auto-detected |
-| `WEIBO_BROWSER_PROFILE_DIR` | Chrome profile directory | `~/.local/share/baoyu-skills/chrome-profile` |
+| `WEIBO_BROWSER_PROFILE_DIR` | Chrome profile directory | `~/.local/share/weibo-skills/chrome-profile` |
 | `WEIBO_BROWSER_DEBUG_PORT` | Fixed debug port | Random |
 
 ### Custom Chrome Profile
@@ -129,7 +129,7 @@ bun scripts/weibo-post.ts "Hello"
 Delete the profile directory and re-login:
 
 ```bash
-rm -rf ~/.local/share/baoyu-skills/chrome-profile
+rm -rf ~/.local/share/weibo-skills/chrome-profile
 bun scripts/weibo-post.ts "Hello"  # Opens browser for login
 ```
 
