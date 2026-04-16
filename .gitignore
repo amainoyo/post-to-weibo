@@ -1,0 +1,16 @@
+# Chrome profile (contains login session)
+chrome-profile/
+
+# Temporary files
+*.tmp
+*.html
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node (if using npx, bun manages its own cache)
+.bun/
